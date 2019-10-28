@@ -1,0 +1,27 @@
+<html>
+  <head>
+      <title>Todo List</title>
+      
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet"
+  </head>
+<body>
+  <div id="app">
+    <h1>Your ToDo Space</h1>
+    <div class="center">
+      <input class="form-control form-control-lg" type="text" id="input" placeholder="What do you wanna do">
+      <button style="margin-top:10px"; id="Add" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-plus-sign"></span>Add </button>
+      <p>Click on task to delete</p>
+      <div id="listitems" >
+        <ul id="list"></ul>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

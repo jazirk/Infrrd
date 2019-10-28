@@ -1,0 +1,61 @@
+h1, h2 {
+    font-family: 'Titillium Web', sans-serif;
+    text-align:center;
+    -webkit-text-fill-color: white;
+    
+  }
+  body{
+   background: #DA4453;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+  }
+  .center {
+    text-align: center;
+    
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  #app{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  #listitems{
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+  
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+  }
+  button 
+  {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    
+    justify-content: center;
+  }
+  p{
+    margin-top: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    -webkit-text-fill-color: white;
+    display: none;
+  }
